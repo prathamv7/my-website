@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creator DM Generator - Step 1: Input Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 Creator DM Generator</h1>
+        <p class="subtitle">Step 1: Enter creator details</p>
+        
+        <form id="creatorForm">
+            <div class="form-group">
+                <label for="creatorNiche">Creator's Niche/Topic:</label>
+                <input 
+                    type="text" 
+                    id="creatorNiche" 
+                    placeholder="e.g., productivity, indie gaming, vegan baking"
+                    required
+                >
+            </div>
+            
+            <div class="form-group">
+                <label for="latestContent">Their Latest Content Topic:</label>
+                <input 
+                    type="text" 
+                    id="latestContent" 
+                    placeholder="e.g., 'How I built my PC in 1 hour', 'My top 5 Python tips'"
+                    required
+                >
+            </div>
+            
+            <button type="submit" id="submitBtn">Get Started →</button>
+       </form> <!-- YOUR FORM ENDS HERE -->
+
+<!-- ADD THIS LINE RIGHT HERE -->
+<button type="button" id="copyBtn" style="margin-top: 1rem; padding: 0.75rem 1.5rem; background: #2ecc71; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 0.95rem;">
+  📋 Copy All DMs to Clipboard
+</button>
+<div id="results"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
