@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://github.io
+Sitemap: https://prathamv7.github.io/my-website/sitemap.xml
